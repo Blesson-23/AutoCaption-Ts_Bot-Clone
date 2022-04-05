@@ -42,11 +42,11 @@ async def editing(bot, message):
              await bot.edit_message_caption(
                  chat_id = message.chat.id, 
                  message_id = message.message_id,
-                 caption = file_caption + "\n \n" + "**__🕊️ᴊᴏɪɴ ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ 👇__**",
+                 caption = file_caption + "\n \n" + "**__🕊️ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ 👇__**",
                  parse_mode = "markdown",
                  reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton("❤️‍🔥 ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴩ ❤️‍🔥", url="https://t.me/cinevilla000")
+              InlineKeyboardButton("📹 ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴩ 📹", url="https://t.me/cinevilladirect")
               ]]
         )
                  )
